@@ -1,4 +1,4 @@
-import python-cowsay
+import cowsay
 import sys
 
 f = open("deadpool-face.cow")
