@@ -31,7 +31,7 @@ class Mob:
         self.name: str = name
 
     def say(self):
-        print(cowsay(self.msg))
+        print(cowsay(self.msg, cow=self.name))
 
 
 class Player:
